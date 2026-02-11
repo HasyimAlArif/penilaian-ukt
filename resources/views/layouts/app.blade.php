@@ -130,7 +130,7 @@
             <div id="sidebar" class="sidebar w-64 h-full flex-shrink-0 flex flex-col no-print border-r border-white/10 bg-[#1a1a2e]">
                 <div class="p-6 border-b border-white/10">
                     <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center shadow-lg shadow-red-500/30">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shadow-lg shadow-red-500/30">
                             
                             <img src="{{ asset('images/logoweb.png') }}" alt="Logo" class="w-16 h-16 object-contain">
                         </div>
