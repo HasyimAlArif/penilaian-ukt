@@ -56,7 +56,7 @@
         </form>
         
         <p class="text-center text-gray-500 text-sm mt-6">
-            Default Admin: admin@pagarnusa.or.id / admin123
+            Copyright © SEMZZ-DEV
         </p>
     </div>
 </x-guest-layout>
