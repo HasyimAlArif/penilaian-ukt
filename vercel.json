@@ -1,0 +1,41 @@
+{
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.7.1" }
+    },
+    "routes": [
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_NAME": "Penilaian UKT Pagar Nusa",
+        "APP_ENV": "production",
+        "APP_KEY": "base64:oX4Pwm/9XwQpFpp9i1I1APgUGEI0s3sf5es4WdaEOsU=",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://penilaian-ukt-laravel.vercel.app",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_CONFIG_EVENTS_CACHE": "/tmp/events.php",
+        "APP_CONFIG_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_CONFIG_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_CONFIG_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "j4y8qd.h.filess.io",
+        "DB_PORT": "3306",
+        "DB_DATABASE": "penilaian_ukt_riverpoem",
+        "DB_USERNAME": "penilaian_ukt_riverpoem",
+        "DB_PASSWORD": "cb23bac032292e481dfa601ad8903d7e1ba94366",
+
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie",
+        "QUEUE_CONNECTION": "sync",
+        "FILESYSTEM_DISK": "local",
+        "VERCEL": "1"
+}
+}
