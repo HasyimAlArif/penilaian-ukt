@@ -1,8 +1,13 @@
 <x-guest-layout>
     <div class="glass-card rounded-2xl p-8 w-full max-w-md animate-fade-in">
         <div class="text-center mb-8">
+<<<<<<< HEAD
             <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-white flex items-center justify-center shadow-lg shadow-white/10 overflow-hidden">
                 <img src="{{ asset('images/logoweb.png') }}" alt="Logo" class="w-16 h-16 object-contain">
+=======
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center shadow-lg shadow-red-500/30">
+                <img src="{{ asset('images/logoweb.png') }}" alt="Pagar Nusa Logo" class="w-12 h-12">
+>>>>>>> dd60b4aef3b641429d222b5c58502391f2ce0bb8
             </div>
             <h1 class="text-2xl font-bold mb-2">Sistem Penilaian UKT</h1>
             <p class="text-gray-400">Pagar Nusa</p>
@@ -54,7 +59,7 @@
         </form>
         
         <p class="text-center text-gray-500 text-sm mt-6">
-            Default Admin: admin@pagarnusa.or.id / admin123
+            Copyright © SEMZZ-DEV
         </p>
     </div>
 </x-guest-layout>
