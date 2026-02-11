@@ -1,7 +1,7 @@
 <x-guest-layout>
     <div class="glass-card rounded-2xl p-8 w-full max-w-md animate-fade-in">
         <div class="text-center mb-8">
-            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-white flex items-center justify-center shadow-lg shadow-white/10 overflow-hidden">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center shadow-lg shadow-white/10 overflow-hidden">
                 <img src="{{ asset('images/logoweb.png') }}" alt="Logo" class="w-16 h-16 object-contain">
             </div>
             <h1 class="text-2xl font-bold mb-2">Sistem Penilaian UKT</h1>
